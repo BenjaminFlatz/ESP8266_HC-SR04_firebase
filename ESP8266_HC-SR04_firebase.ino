@@ -28,8 +28,8 @@ FirebaseData firebaseData;
 FirebaseJson json;
 String path = "/HC-SR04";
 
-const char* SSID = "lumina";
-const char* PSK = "funzel123";
+const char* SSID = "ssid";
+const char* PSK = "pw";
 
 unsigned long lastTime = 0;
 

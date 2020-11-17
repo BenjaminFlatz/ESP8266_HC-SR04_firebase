@@ -104,8 +104,7 @@ int get_distance()
 
 void firebase_setInt(int distance){
   
-  //Firebase.setInt("/HC-SR04/roman/distance", distance); 
-  if (Firebase.setInt(firebaseData, path + "/roman/distance", distance))
+  if (Firebase.setInt(firebaseData, path, distance))
   {
     Serial.println("PASSED");
     Serial.println("PATH: " + firebaseData.dataPath());

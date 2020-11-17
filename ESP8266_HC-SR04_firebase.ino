@@ -11,9 +11,9 @@ WiFiClientSecure client;
 #include <ESP8266WebServer.h>
 #include <WiFiManager.h>   
 
-#define FIREBASE_HOST "colorrize-a1a0f.firebaseio.com"
-#define FIRMWARE_URL "https://firebasestorage.googleapis.com/v0/b/colorrize-a1a0f.appspot.com/o/mqtt.ino.bin?alt=media&token=b2ec949f-46d8-4051-8ac4-3a06bb159008"
-#define FIREBASE_AUTH "mv5r81n16mLY6nxPKlSAHMc8xBXZ2HS6HVCwVkkt"
+#define FIREBASE_HOST ""
+#define FIRMWARE_URL ""
+#define FIREBASE_AUTH ""
 
 #define echo 4
 #define trig 5
